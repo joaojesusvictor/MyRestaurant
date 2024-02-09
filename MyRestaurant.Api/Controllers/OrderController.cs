@@ -15,6 +15,13 @@ namespace MyRestaurant.Api.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Get all Orders from a specific Area
+        /// </summary>
+        /// <param name="area">Area of kitchen to see Orders</param>
+        /// <returns>String with Orders</returns>
+        /// <response code="200">Success</response>
+        /// <response code="400">BadRequest</response>
         [HttpGet("{area}")]
         public IActionResult Get(string area)
         {
@@ -44,6 +51,14 @@ namespace MyRestaurant.Api.Controllers
                 return BadRequest();
         }
 
+        /// <summary>
+        /// Add Order to Queue
+        /// </summary>
+        /// <param name="order">Order</param>
+        /// <param name="area">Area of kitchen</param>
+        /// <returns>Status Code</returns>
+        /// <response code="200">Success</response>
+        /// <response code="400">BadRequest</response>
         [HttpPost("{order}, {area}")]
         public IActionResult AddOrder(string order, string area)
         {
@@ -74,6 +89,13 @@ namespace MyRestaurant.Api.Controllers
                 return BadRequest();
         }
 
+        /// <summary>
+        /// Delete a Order from Queue
+        /// </summary>
+        /// <param name="area">Kitchen area from where the Order should be deleted</param>
+        /// <returns>Status Code</returns>
+        /// <response code="200">Success</response>
+        /// <response code="400">BadRequest</response>
         [HttpDelete("{area}")]
         public IActionResult DeleteOrder(string area)
         {

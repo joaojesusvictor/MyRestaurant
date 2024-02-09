@@ -30,3 +30,6 @@ C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\obj\Debug\net8.
 C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\obj\Debug\net8.0\MyRestaurant.Api.pdb
 C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\obj\Debug\net8.0\MyRestaurant.Api.genruntimeconfig.cache
 C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\obj\Debug\net8.0\ref\MyRestaurant.Api.dll
+C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\obj\Debug\net8.0\MyRestaurant.Api.sourcelink.json
+C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\bin\Debug\net8.0\MyRestaurant.Api.xml
+C:\Users\João Victor\source\repos\MyRestaurant\MyRestaurant.Api\obj\Debug\net8.0\MyRestaurant.Api.xml

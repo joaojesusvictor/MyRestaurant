@@ -33,10 +33,10 @@ namespace MyRestaurant.Tests.Controllers
         }
 
         [Theory]
-        [InlineData("Big Mac", "grill")]
-        [InlineData("Big Coke", "DRINk")]
-        [InlineData("Big Fries", "Fries")]
-        [InlineData("Small Fries", "fris")]
+        [InlineData("One Big Mac", "grill")]
+        [InlineData("One Big Coke", "DRINk")]
+        [InlineData("Two Big Fries", "Fries")]
+        [InlineData("One Small Fries", "fris")]
         public void AddThreeOrders_Successfull_And_OneFail(string order, string area)
         {
             //Arrange

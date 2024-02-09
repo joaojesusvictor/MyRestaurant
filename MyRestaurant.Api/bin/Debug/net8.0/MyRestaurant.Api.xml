@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyRestaurant.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MyRestaurant.Api.Controllers.OrderController.Get(System.String)">
+            <summary>
+            Get all Orders from a specific Area
+            </summary>
+            <param name="area">Area of kitchen to see Orders</param>
+            <returns>String with Orders</returns>
+            <response code="200">Success</response>
+            <response code="400">BadRequest</response>
+        </member>
+        <member name="M:MyRestaurant.Api.Controllers.OrderController.AddOrder(System.String,System.String)">
+            <summary>
+            Add Order to Queue
+            </summary>
+            <param name="order">Order</param>
+            <param name="area">Area of kitchen</param>
+            <returns>Status Code</returns>
+            <response code="200">Success</response>
+            <response code="400">BadRequest</response>
+        </member>
+        <member name="M:MyRestaurant.Api.Controllers.OrderController.DeleteOrder(System.String)">
+            <summary>
+            Delete a Order from Queue
+            </summary>
+            <param name="area">Kitchen area from where the Order should be deleted</param>
+            <returns>Status Code</returns>
+            <response code="200">Success</response>
+            <response code="400">BadRequest</response>
+        </member>
+    </members>
+</doc>
