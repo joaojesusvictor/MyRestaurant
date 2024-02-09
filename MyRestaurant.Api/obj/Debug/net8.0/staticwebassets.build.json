@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VZ6kNlOmfsQIEKW5uzy/5JdH4Vpyt/3qK2yWr7qmVKA=",
+  "Source": "MyRestaurant.Api",
+  "BasePath": "_content/MyRestaurant.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
